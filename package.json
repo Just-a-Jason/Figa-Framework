@@ -1,0 +1,32 @@
+{
+  "name": "figa-framework",
+  "version": "1.0.0",
+  "description": "Figa is a lightweight typescript/java script ui framework designed for building Tauri and Electron applications, as well as websites. It comes with a built-in router and boasts a compact package size of approximately 20KB. 🍇",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/Just-a-Jason/Figa-Framework.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "java script framework",
+    "typescript framework",
+    "java script",
+    "typescript",
+    "lightweight",
+    "framework",
+    "router"
+  ],
+  "author": "Jason.json",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "figa-framework": "file:figa-framework-1.0.0.tgz"
+  }
+}
